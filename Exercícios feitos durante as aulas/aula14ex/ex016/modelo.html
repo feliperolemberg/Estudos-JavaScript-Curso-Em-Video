@@ -3,18 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Modelo de Exercício</title>
+  <title>Super Contador</title>
   <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
   <header>
-    <h1>Título</h1>
+    <h1>Vamos contar</h1>
   </header>
   <section id="caixaPrincipal">
-    <p>Digite o primeiro número do intervalo: <input type="number" name="" id="txtInicio"></p>
-    <p>Digite o segundo número do intervalo: <input type="number" name="" id="txtFim"></p>
-    <p>De quanto em quanto: <input type="number" name="" id="txtPulo"></p>
-    <button onclick="listar()">Listar</button>
+    <div>
+      <p>Início: <input type="number" name="" id="txtInicio"></p>
+      <p>Fim: <input type="number" name="" id="txtFim"></p>
+      <p>De quanto em quanto: <input type="number" name="" id="txtPulo"></p>
+      <button onclick="listar()">Listar</button>
+    </div>
+    <div id="resultado">
+      <p>Preparando a contagem...</p>
+    </div>
   </section>
   <footer>
     <p>&copy;Curso em Vídeo</p>
