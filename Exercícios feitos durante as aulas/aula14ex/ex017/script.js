@@ -6,7 +6,7 @@ function tabuada() {
   } else {
     numero = Number(numero);
     var c = 1;
-    areaTabuada = '';
+    areaTabuada.innerHTML = '';
     while (c <= 10) {
       var item = document.createElement('option');
       item.textContent = `${numero} x ${c} = ${numero*c}`;
