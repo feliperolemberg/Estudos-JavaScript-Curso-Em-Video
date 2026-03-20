@@ -39,7 +39,6 @@ function verificar() {
 
     resultado.style.textAlign = 'center';
     resultado.innerHTML = `Detectamos um(a) ${genero} com ${idade} ano(s).`;
-    resultado.appendChild(img);
+    resultado.appendChild(imagem);
   }
-
 }
